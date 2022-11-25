@@ -171,7 +171,7 @@
 
 .price__low {
     color: #ADADAD;
-    font-size: 36px;
+    font-size: 0.75em;
     position: relative;
     margin-right: 32px;
 }
@@ -430,5 +430,15 @@
     }
     .tel {
         flex-shrink: 0;
+    }
+    
+    .discount__price {
+        font-size: 32px;
+    }
+
+    .price__low::after {
+        width: 80px;
+        left: -12px;
+        top: 13px;
     }
 }

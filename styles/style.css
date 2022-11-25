@@ -96,7 +96,7 @@
 }
 
 .header__main .description {
-    width: 650px;
+    max-width: 650px;
     font-size: 24px;
     line-height: 28.44px;
     margin-bottom: 120px;
@@ -142,7 +142,7 @@
 }
 
 .discount__container {
-    width: 1440px;
+    max-width: 1440px;
     padding: 110px 64px 112px;
     margin: auto;
 }
@@ -295,6 +295,10 @@
     .main__lemon {
         bottom: -112px;
     }
+
+    .discount__container {
+        padding: 110px 16px 112px;
+    }
 }
 
 
@@ -311,6 +315,15 @@
         font-size: 96px;
         line-height: 100px;
     }
+
+    .discount__header {
+        font-size: 36px;
+        margin-bottom: 85px;
+    }
+
+    .discount__cards {
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -321,6 +334,34 @@
     
     .header__main .description {
         margin-bottom: 60px;
+    }
+
+    .discount__container {
+        padding: 32px 16px;
+    }
+    
+    .discount__header {
+        margin-bottom: 48px;
+    }
+    
+    .discount__card:nth-last-child(2) {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 32px;
+    }
+
+    .discount__card:nth-last-child(2) .yellow {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .discount__card:nth-last-child(2)  img{
+        transform: rotate(-90deg) scale(1.5) translateY(2px);
+        margin-bottom: 0;
+    }
+
+    .discount__card img {
+        margin-bottom: 12px;
     }
 }
 
@@ -333,6 +374,31 @@
     .main__container h1 {
         font-size: 72px;
         line-height: 80px;
+    }
+
+    .main__container .description {
+        font-size: 18px;
+    }
+
+    .main__container h3 {
+        font-size: 24px;
+    }
+    
+    .discount__header {
+        font-size: 24px;
+    }
+    
+    .discount__header {
+        margin-bottom: 24px;
+    }
+
+    .discount__price {
+        margin-bottom: 24px;;
+    }
+
+    .discount__cards {
+        flex-direction: column;
+        margin-bottom: 24px;
     }
 }
 

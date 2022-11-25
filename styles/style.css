@@ -249,6 +249,7 @@
     .nav__container .menu {
         width: 100%;
     }
+    
     .header__cart {
         margin-left: 0;
     }
@@ -375,7 +376,8 @@
     }
     .main__container h1 {
         font-size: 72px;
-        line-height: 80px;
+        line-height: 76px;
+        margin-bottom: 8px;
     }
 
     .main__container .description {
@@ -383,7 +385,7 @@
     }
 
     .main__container h3 {
-        font-size: 24px;
+        font-size: 18px;
     }
     
     .discount__header {
@@ -412,5 +414,21 @@
     
     .header__main .description {
         margin-bottom: 32px;
+    }
+
+    .discount__header {
+        font-size: 18px;
+    }
+
+    .nav__container .menu {
+        width: 100%;
+        flex-shrink: 1;
+    }
+
+    .nav__container .flex-container{
+        gap: 15px;
+    }
+    .tel {
+        flex-shrink: 0;
     }
 }

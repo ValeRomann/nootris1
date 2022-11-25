@@ -55,7 +55,23 @@
     text-decoration: underline;
 }
 
+.header__cart {
+    position: relative;
+}
 
+.cart__product-number {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font-size: 12px;
+    background-color: gold;
+    position: absolute;
+    bottom: -3px;
+    right: -8px;
+}
+
+/* HEADER FOOTER */
 .main__container {
     width: 1440px;
     padding: 96px 64px 98px;

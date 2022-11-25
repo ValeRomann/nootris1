@@ -465,20 +465,14 @@
     }
 
     .main__ginger {
-        transform: scale(0.15);
-        bottom: -170px;
-        right: -210px;
+        display: none;
     }
 
     .main__nootris {
-        transform: scale(0.15);
-        bottom: -250px;
-        right: -80px;
+        display: none;
     }
     
     .main__lemon {
-        transform: scale(0.15);
-        bottom: -218px;
-        right: -210px;
+        display: none;
     }
 }

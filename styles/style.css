@@ -72,6 +72,10 @@
     right: -8px;
 }
 
+.header__show-button {
+    display: none;
+}
+
 /* HEADER FOOTER */
 .main__container {
     max-width: 1440px;
@@ -335,10 +339,7 @@
 }
 
 
-@media screen and (max-width: 858px) {
-    .main__container img {
-    }
-    
+@media screen and (max-width: 858px) {    
     .header__main .description {
         margin-bottom: 60px;
     }
@@ -395,7 +396,21 @@
     .nav__container .menu {
         flex-direction: column;
         order: 3;
+        display: none;
     }
+
+    .header__show-button {
+        display: block;
+    }
+
+    .header__show-button button {
+        padding: 6px 8px;
+        background-color: #111;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+    }
+
     .main__container h1 {
         font-size: 72px;
         line-height: 76px;

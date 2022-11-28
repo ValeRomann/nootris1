@@ -11,12 +11,3 @@ function handleMenu() {
     if (display === "flex") menu.style.display = '';
     if (display === 'none') menu.style.display  = 'flex';
 }
-    
-window.addEventListener(`resize`, () => {
-        const display = window.getComputedStyle(menu, null).getPropertyValue("display");
-    if (window.matchMedia("(max-width: 790px)")) {
-        display.style.display = "none";
-    } else {
-        display.style.display = "flex";
-    }
-    }, false);
